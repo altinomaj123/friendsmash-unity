@@ -131,6 +131,10 @@ public class MainMenu : MonoBehaviour
         // Initialize FB SDK
         enabled = false;
         FB.Init(SetInit, OnHideUnity);
+        appId      : '1707870879432585',
+      xfbml      : true,
+      version    : 'v2.4'
+    });
     }
 
     private void SetInit()
